@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: spring-boot-k8s
-          image: adijaiswal/shopping-kart:latest
+          image: ukohme1/shopping-kart:latest
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 8070
